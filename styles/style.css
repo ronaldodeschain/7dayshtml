@@ -1,0 +1,9 @@
+@import url('header.css');
+
+:root{
+    --cor-base: #ffffff;
+    --cor-botao-cadastrar: #8E2424;
+    --cor-cinza:#667085;
+}
+
+
