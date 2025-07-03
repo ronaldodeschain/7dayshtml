@@ -1,5 +1,6 @@
 @import url('header.css');
 @import url('banner.css');
+@import url('metricas.css');
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
@@ -9,6 +10,7 @@
     --cor-cinza:#667085;
     --cor-banner-titulo: #101828;
     --cor-about: #8E2424;
+    --cor-metrica-titulo: #8E2424;
 
     --fonte-principal: 'Inter';
 }
