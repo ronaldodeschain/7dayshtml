@@ -1,54 +1,57 @@
-.header{
-    width: 1440px;
-    display: flex;
-    text-align: center;
-    margin:0 150px ;
+.cabecalho {
+    width: 100%;
+    padding: 0 5rem; 
+    box-sizing: border-box; 
 }
 
-.container{
+.cabecalho__navegacao {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 2rem;
-    width: 100%;
-}
-.header__logo{
-    display: flex;
-}
-.header-menu{
-    display: flex;
-    padding: 1rem;
-    width: 25vw;
-    text-decoration: none;
-    justify-content: space-around;
-}
-.header-menu__link{
-    text-decoration: none;
-    background-clip: text;
-    color:var(--cor-cinza);
+    max-width: 80%;
+    height: 80px; 
+    margin: 0 auto; 
 }
 
-
-.header-menu__login{
+.cabecalho__menu {
     display: flex;
-    width: 8em;
+    align-items: center;
+    width: 45%;
     justify-content: space-between;
-    text-decoration: none;
-    padding:  2rem;
+    gap: 4rem; 
 }
-.header-menu__nav__link{
-    text-decoration: none;
+
+.cabecalho__menu-lista {
+    display: flex;
+    gap: 2rem; 
+}
+
+.cabecalho__menu-link {
+    font-size: 1rem;
+    font-weight: 500;
     color: var(--cor-cinza);
-    display: inline-block;
-    padding: 10px 18px ;
-    
+    text-decoration: none;
 }
-.header-menu__extra{
-    background-color: var(--cor-botao-cadastrar);
+
+.cabecalho__login {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem; 
+}
+
+.cabecalho__login-link {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--cor-cinza);
+    text-decoration: none;
+}
+
+.cabecalho__login-botao {
+    font-size: 1rem;
+    font-weight: 500;
     color: var(--cor-base);
-    border-radius: 8px;
-    display: inline-block;
+    background-color: var(--cor-botao-cadastrar);
     padding: 10px 18px;
-    width: 100%;
-    
+    border-radius: 8px;
+    text-decoration: none;
 }

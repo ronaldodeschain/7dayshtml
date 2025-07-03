@@ -1,0 +1,19 @@
+.about{
+    padding: 6rem 22%;
+    text-align: center;
+}
+.about__titulo{
+    font-weight: 600;
+    font-size: 2.5rem;
+    padding: 1.5rem;
+    font-family: var(--fonte-principal);
+}   
+.about__subtitulo{
+    font-weight: 400;
+    font-family: var(--fonte-principal);
+}
+.about__texto{
+    line-height: 24px;
+    color: var(--cor-cinza);
+    font-family: var(--fonte-principal);
+}
