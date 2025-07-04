@@ -1,0 +1,32 @@
+.vagas{
+    padding: 4rem 0;
+}
+.vagas__container{
+    width: 60%;
+    margin: 0 auto;
+}
+.vagas__categoria{
+    margin-bottom: 3rem;
+}
+.vagas__area,
+.vagas__nome{
+    font-weight: 600;
+    font-size: 1rem;
+    font-family: var(--fonte-principal);
+}
+.vagas__nome{
+    font-size: 1.125rem;
+    margin-bottom: 1.5rem;
+}
+.vagas__descricao{
+    border: 1px solid #EAECF0;
+    border-radius: 16px;
+    padding: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.vagas__texto{
+    color: var(--cor-cinza);
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+}
