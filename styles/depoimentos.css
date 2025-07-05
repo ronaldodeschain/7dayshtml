@@ -1,0 +1,40 @@
+.depoimentos{
+    text-align: center;
+    
+}
+.depoimentos__conteudo{
+    line-height: 44px;
+}
+.depoimentos__titulo{
+    color: var(--cor-vagas);
+    font-size: 0.875rem;
+    font-weight: 600;
+    font-family: var(--fonte-principal);
+}
+.depoimentos__texto{
+    font-weight: 500;
+    font-size: 2.25rem;
+    padding: 0 30%;
+    font-family: var(--fonte-principal);
+    color: var(--cor-depoimentos-titulo);
+
+}
+.depoimentos__item{
+
+}
+.depoimentos__item-imagem{
+    display: block;
+    width: 56px;
+    height: 56px;
+    object-fit: cover;
+    margin: 0 auto 1rem;
+    border-radius: 50%;
+}
+.depoimentos__item-nome{
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.depoimentos__item-cargo{
+    color: var(--cor-cinza);
+    
+}

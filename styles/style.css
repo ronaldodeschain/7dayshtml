@@ -3,6 +3,7 @@
 @import url('metrica.css');
 @import url('talentos.css');
 @import url('vagas.css');
+@import url('depoimentos.css');
 
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
@@ -16,7 +17,7 @@
     --cor-metrica-titulo: #8E2424;
     --cor-vagas: #8e2424;
     --cor-fundo-talentos: #8E24240D 5%;
-
+    --cor-depoimentos-titulo: #101828;
     --fonte-principal: 'Inter';
 }
 
