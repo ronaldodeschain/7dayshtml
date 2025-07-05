@@ -1,0 +1,42 @@
+.footer{
+    text-align: center;
+    padding: 64px 0;
+    line-height: 55px;
+}
+.footer__titulo{
+    font-family: var(--fonte-principal);
+    font-weight: 600;
+    font-size: 2.25rem;
+    
+}
+.footer__texto{
+    color: var(--cor-cinza);
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+.footer__input{
+    padding: 6px 20px 6px 8px;
+    margin-right: 10px;
+    width: 360px;
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--cor-cinza);
+    border-color: var(--cor-footer-border-color);
+    border-radius: 5px;
+}
+.footer__botao{
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--cor-base);
+    background-color: var(--cor-botao-cadastrar);
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.footer__copyright{
+    margin-top: 20px;
+    color: var(--cor-cinza);
+    font-family: var(--fonte-principal);
+}
