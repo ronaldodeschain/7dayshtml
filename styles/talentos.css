@@ -5,9 +5,6 @@
     margin: 0 auto;
     
 }
-.talentos__conteudo{
-    
-}
 .talentos__titulo{
     font-family: var(--fonte-principal);
     font-weight: 600;
@@ -26,8 +23,10 @@
 }
 .talentos__imagem{
     display: block;
+    max-height: 400px;
     width: 80%;
     margin: 4rem auto 0;
+    object-fit: cover;
     
 }
 
