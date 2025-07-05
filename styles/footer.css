@@ -59,6 +59,13 @@
     }
     .footer__input {
         width: 100%;
+        box-sizing: border-box; 
         margin-right: 0;
+    }
+    .footer__titulo {
+        font-size: 1.75rem;
+    }
+    .footer__texto {
+        font-size: 1rem;
     }
 }

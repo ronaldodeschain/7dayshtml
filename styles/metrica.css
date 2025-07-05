@@ -34,4 +34,17 @@
         text-align: center;
         padding: 2rem 1rem;
     }
+    .metrica__titulo {
+        font-size: 2.5rem;
+    }
+    .metrica__texto {
+        width: 100%; 
+    }
+}
+
+@media (max-width: 480px) {
+    .metrica__titulo {
+        font-size: 2.25rem; 
+        line-height: 1.1;
+    }
 }

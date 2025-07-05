@@ -46,8 +46,22 @@
 }
 @media (max-width: 768px) {
     .depoimentos__texto {
+       
         font-size: 1.75rem;
         padding: 0;
         line-height: 2.5rem;
+    }
+    .depoimentos__conteudo {
+        max-width: 90%; 
+    }
+    .depoimentos__item-nome {
+        font-size: 1.125rem; 
+    }
+}
+
+@media (max-width: 480px) {
+    .depoimentos__texto {
+        font-size: 1.5rem; 
+        line-height: 2rem;
     }
 }

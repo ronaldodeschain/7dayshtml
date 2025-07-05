@@ -33,6 +33,10 @@
 
 @media (max-width: 768px) {
     .vagas__container {
+       
         width: 90%;
+    }
+    .vagas__descricao {
+        padding: 1rem; 
     }
 }

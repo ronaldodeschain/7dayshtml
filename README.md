@@ -6,10 +6,14 @@ as areas que não conhecia bem. </p>
 <p>Meu objetivo com esse desafio é aprender um pouco sobre Front-end para entender
 as dores e o processo seguido pelos desenvolvedores nesta etapa do desenvolvimento.
 
-<p>Criei uma versão para 820px para telas menores, mas não vou criar uma tela 
-para smarts neste projeto. </p>
+<p>O projeto foi refatorado para ser totalmente responsivo, garantindo uma experiência de usuário otimizada em desktops, tablets e celulares.</p>
 
-
+<h3>Principais atualizações desta versão:</h3>
+<ul>
+    <li><b>Design Responsivo:</b> Foram implementadas <code>media queries</code> para ajustar layouts, fontes e espaçamentos em diferentes tamanhos de tela, com foco especial em dispositivos de 360px de largura para garantir que nenhum elemento saia dos limites da tela.</li>
+    <li><b>Menu Mobile:</b> Para a navegação em telas menores (abaixo de 768px), foi adicionado um menu "hambúrguer" funcional utilizando JavaScript. Ele controla a exibição dos links de navegação, mantendo os botões de login e cadastro sempre visíveis para fácil acesso.</li>
+    <li><b>Ícones Acessíveis:</b> O ícone do menu utiliza SVGs para os estados "abrir" e "fechar", garantindo clareza, acessibilidade e uma melhor prática de desenvolvimento.</li>
+</ul>
 
 [GitHub Page do Projeto](https://ronaldodeschain.github.io/7dayshtml/)
 
