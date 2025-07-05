@@ -17,15 +17,12 @@
     --cor-about: #8E2424;
     --cor-metrica-titulo: #8E2424;
     --cor-vagas: #8e2424;
-    --cor-fundo-talentos: #8E24240D 5%;
+    --cor-fundo-talentos: #8E24240D; 
     --cor-depoimentos-titulo: #101828;
     --fonte-principal: 'Inter';
-    --cor-fundo-depoimentos: #1e0c0cee 5%;
+    --cor-fundo-depoimentos: rgba(195, 25, 25, 0.086); 
     --cor-footer-button-border: #f9fafb;
 }
-
 body{
-    
-    height: 100vh;
+    min-height: 100vh;
 }
-

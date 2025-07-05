@@ -1,9 +1,15 @@
 .footer{
     text-align: center;
     padding: 64px 0;
-    line-height: 55px;
 }
+
+.footer > * {
+    margin-bottom: 24px;
+}
+
 .footer__titulo{
+    line-height: 1.2;
+    margin-bottom: 20px;
     font-family: var(--fonte-principal);
     font-weight: 600;
     font-size: 2.25rem;
@@ -14,24 +20,29 @@
     font-family: var(--fonte-principal);
     font-weight: 400;
     font-size: 1.25rem;
+    line-height: 1.5;
+}
+
+.footer__formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .footer__input{
-    padding: 6px 20px 6px 8px;
-    margin-right: 10px;
+    padding: 12px 16px;
+    margin-right: 16px;
     width: 360px;
-    font-weight: 400;
     font-size: 1rem;
-    color: var(--cor-cinza);
-    border-color: var(--cor-footer-border-color);
-    border-radius: 5px;
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
 }
 .footer__botao{
     font-size: 1rem;
     font-weight: 500;
     color: var(--cor-base);
     background-color: var(--cor-botao-cadastrar);
-    padding: 5px 10px;
-    border-radius: 5px;
+    padding: 12px 20px;
+    border-radius: 8px;
     text-decoration: none;
     cursor: pointer;
 }
@@ -39,4 +50,15 @@
     margin-top: 20px;
     color: var(--cor-cinza);
     font-family: var(--fonte-principal);
+}
+@media (max-width: 768px) {
+    .footer__formulario {
+        flex-direction: column;
+        gap: 16px;
+        padding: 0 1rem;
+    }
+    .footer__input {
+        width: 100%;
+        margin-right: 0;
+    }
 }

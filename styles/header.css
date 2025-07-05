@@ -1,57 +1,59 @@
 .cabecalho {
+    padding: 18px 5%;
+    box-sizing: border-box;
     width: 100%;
-    padding: 0 5rem; 
-    box-sizing: border-box; 
 }
-
 .cabecalho__navegacao {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
     align-items: center;
-    max-width: 90%;
-    height: 80px; 
-    margin: 0 auto; 
+    flex-wrap: wrap; 
+    gap: 32px; 
 }
-
 .cabecalho__menu {
     display: flex;
     align-items: center;
-    width: 45%;
-    justify-content: space-between;
-    gap: 4rem; 
+    gap: 32px; 
 }
 
 .cabecalho__menu-lista {
     display: flex;
-    gap: 2rem; 
+    gap: 24px; 
 }
 
 .cabecalho__menu-link {
-    font-size: 1rem;
-    font-weight: 500;
-    color: var(--cor-cinza);
     text-decoration: none;
+    color: var(--cor-cinza);
+    font-weight: 500;
+    font-family: var(--fonte-principal);
 }
 
 .cabecalho__login {
     display: flex;
     align-items: center;
-    gap: 1.5rem; 
+    gap: 12px; 
 }
 
 .cabecalho__login-link {
-    font-size: 1rem;
-    font-weight: 500;
-    color: var(--cor-cinza);
     text-decoration: none;
+    color: var(--cor-cinza);
+    font-weight: 500;
+    font-family: var(--fonte-principal);
 }
 
 .cabecalho__login-botao {
-    font-size: 1rem;
-    font-weight: 500;
-    color: var(--cor-base);
+    text-decoration: none;
     background-color: var(--cor-botao-cadastrar);
+    color: var(--cor-base);
     padding: 10px 18px;
     border-radius: 8px;
-    text-decoration: none;
+    font-weight: 500;
+    font-family: var(--fonte-principal);
+}
+
+@media (max-width: 820px) {
+    .cabecalho__navegacao {
+        flex-direction: column; 
+        justify-content: center; 
+    }
 }

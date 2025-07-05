@@ -30,3 +30,9 @@
     font-family: var(--fonte-principal);
     font-weight: 500;
 }
+
+@media (max-width: 768px) {
+    .vagas__container {
+        width: 90%;
+    }
+}

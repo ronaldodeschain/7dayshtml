@@ -3,7 +3,6 @@
     text-align: center;
     line-height: 2.5rem;
     margin: 0 auto;
-    
 }
 .talentos__titulo{
     font-family: var(--fonte-principal);
@@ -27,6 +26,6 @@
     width: 80%;
     margin: 4rem auto 0;
     object-fit: cover;
-    
+
 }
 

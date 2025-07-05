@@ -17,3 +17,8 @@
     color: var(--cor-cinza);
     font-family: var(--fonte-principal);
 }
+@media (max-width: 768px) {
+    .about {
+        padding: 4rem 2rem;
+    }
+}
